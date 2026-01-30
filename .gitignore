@@ -1,0 +1,44 @@
+# 1. Python项目通用忽略项
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+*.manifest
+*.spec
+
+# 2. YOLO推理项目专属忽略项
+# 推理结果目录（Ultralytics默认输出路径）
+runs/
+# 模型文件（若模型较大，建议不提交到仓库，此处可保留注释，根据实际情况选择）
+# *.pt
+# 数据集文件（避免提交大体积数据集）
+datasets/
+
+# 3. 操作系统通用忽略项
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# 4. 编辑器/IDE配置文件
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
