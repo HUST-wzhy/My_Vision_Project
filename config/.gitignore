@@ -1,0 +1,14 @@
+## 数据集配置文件：定义数据集路径和类别名称
+#kon.yaml
+path: kon_dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: Yui
+  1: Mio
+  2: Ritsu
+  3: Tsumugi
+  4: Azusa
